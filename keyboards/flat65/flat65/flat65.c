@@ -25,13 +25,13 @@ led_config_t g_led_config = { {
   1, 1, 1,     4, 4, 4, 4, 4, 1, 1, 1, 4, 4, 4, 
 } };
 
-// uint8_t rgb_matrix_map_row_column_to_led_kb(uint8_t row, uint8_t column, uint8_t *led_i) {
-//     if (row == 4 && column == 6) {
-//         led_i[0] = 61;
-//         led_i[1] = 62;
-//         led_i[2] = 64;
-//         led_i[3] = 65;
-//         return 4;
-//     }
-//     return 0;
-// }
+uint8_t rgb_matrix_map_row_column_to_led_kb(uint8_t row, uint8_t column, uint8_t *led_i) {
+    if (row == 4 && column == 6) {
+        led_i[0] = 61;
+        led_i[1] = 62;
+        led_i[2] = 64;
+        led_i[3] = 65;
+        return 4;
+    }
+    return 0;
+}
