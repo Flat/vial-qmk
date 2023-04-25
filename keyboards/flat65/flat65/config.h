@@ -24,6 +24,10 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* Layouts and Macros*/
+#define DYNAMIC_KEYMAP_LAYER_COUNT 16
+#define DYNAMIC_KEYMAP_MACRO_COUNT 109
+
 /* RGB Matrix */
 #define RGB_DI_PIN GP0
 #define DRIVER_LED_TOTAL 72
